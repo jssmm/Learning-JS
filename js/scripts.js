@@ -1,7 +1,21 @@
-let learning = 'Learning',
-    technologies = 'JavaScript';
+let band = 'Metallica',
+    song = 'Enter Sandman';
 
-console.log(learning +' '+ technologies);
+let nombre;
+nombre = band +": "+ song;
 
-//This is the new form
-console.log(`${learning} ${technologies}`);
+//Length nos dice cuantas letras tiene una variable
+console.log(band.length);
+
+
+//concat
+nombre = nombre.concat(" ", "and its cool");
+
+//Uppercase
+nombre = nombre.toUpperCase();
+
+//Lowercase
+nombre = nombre.toLowerCase();
+
+
+console.log(nombre);
