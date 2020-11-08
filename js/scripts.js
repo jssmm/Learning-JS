@@ -1,21 +1,16 @@
-let band = 'Metallica',
-    song = 'Enter Sandman';
+//split divide una cadena de texto
 
-let nombre;
-nombre = band +": "+ song;
+let activity = 'Im learning Js in a course from Udemy';
 
-//Length nos dice cuantas letras tiene una variable
-console.log(band.length);
+name = activity.split(' ');
 
+let intereses = 'Leer, caminar, listening music';
+name = intereses.split(', ');
 
-//concat
-nombre = nombre.concat(" ", "and its cool");
+console.log(name);
 
-//Uppercase
-nombre = nombre.toUpperCase();
+//Reemplazar un valor
+nameTwo = activity.replace('Js','JavaScript');
+//El primer parametro es lo que se desea reemplazar y el segundo parametro es lo que lo reemplaza
 
-//Lowercase
-nombre = nombre.toLowerCase();
-
-
-console.log(nombre);
+console.log(nameTwo);
